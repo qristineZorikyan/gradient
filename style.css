@@ -1,0 +1,128 @@
+.grad1 {
+  height: 200px;
+  width: 200px;
+  background-image: radial-gradient(red, green, blue);
+  margin:0 auto;
+  margin:0 auto;
+}
+
+.grad2 {
+  height: 150px;
+  width: 300px;
+  background-image: radial-gradient(red,yellow, blue);
+  margin-top: 50px;
+}
+
+.grad3 {
+  height: 150px;
+  width: 150px;
+  background-image: radial-gradient(red, green, blue);
+  margin-top: 50px;
+  border-radius: 50%;
+  float:right;
+}
+  
+.grad4 {
+  height: 150px;
+  width: 150px;
+  background-image: linear-gradient(red, green, blue);
+  transform: rotate(45deg);
+  margin: 50px;
+  margin-top:50px;
+}
+
+.triangle {
+  width:200px;
+  height:200px;
+  overflow:hidden;
+  clear: right;
+  margin:0 auto;
+  clear: right;
+}
+.triangle:before {
+  content:"";
+  display:block;
+  width:70%;
+  height:70%;
+  background-image: radial-gradient(red, green, blue);
+  transform: rotate(-45deg);
+  transform-origin:0 0;
+}
+.triangle2 {
+  width:200px;
+  height:200px;
+  overflow:hidden;
+  transform: rotate(315deg);
+  float: right;
+  margin-top: 25px;
+}
+.triangle2:before {
+  content:"";
+  display:block;
+  width:70%;
+  height:70%;
+  background-image: radial-gradient(red, green, blue);
+  transform: rotate(-45deg);
+  transform-origin:0 0;
+  margin-left:50%;
+}
+	
+ .trapezoid {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(red, green, blue);
+  transform: perspective(10px) rotateX(1deg);
+  margin: 50px;
+}
+  
+ .parallelogram {
+   width: 200px;
+   height: 100px;  
+   border: 1px solid black;
+   transform: skewX(-10deg);
+   background-image: linear-gradient(red, green, blue);
+   margin:0 auto;
+}
+ .square {
+   text-align:center;
+   color:red;
+}
+ .rectangle {
+   color:red;
+}
+ .cricle {
+  color:red;
+  text-align:right;
+}
+ .rhombus{
+   color:red;
+}
+.triangle {
+  color:red;
+  clear: right;
+  text-align: center;
+ }
+
+.trapezoid {
+  color:red;
+}
+.tri {
+ color:red;
+ text-align:center;
+ clear: right;
+}
+
+.too{
+ color:red;
+ text-align:right;
+}
+
+.para {
+  color:red;
+  text-align: center;
+}
+ 
+
+ .trapezoid {
+   color:red;
+}
